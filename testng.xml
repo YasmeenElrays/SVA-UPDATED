@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SVA">
+    <parameter name="browser" value="Chrome"/>
+
+    <test  preserve-order="false" name="SVA">
+        <classes>
+            <class name="Tests.LoginTCs"></class>
+
+        </classes>
+    </test>
+
+</suite>

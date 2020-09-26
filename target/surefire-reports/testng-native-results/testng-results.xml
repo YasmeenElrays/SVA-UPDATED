@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="1571" started-at="2020-09-26T07:00:17 EET" finished-at="2020-09-26T07:00:18 EET">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Tests.TestBase@3b084709]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="1571" started-at="2020-09-26T07:00:17 EET" finished-at="2020-09-26T07:00:18 EET">
+      <class name="Tests.TestBase">
+        <test-method status="PASS" signature="StartDriver(java.lang.String)[pri:0, instance:Tests.TestBase@3b084709]" name="StartDriver" is-config="true" duration-ms="11577" started-at="2020-09-26T07:00:05 EET" finished-at="2020-09-26T07:00:17 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDriver -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Tests.TestBase@3b084709]" name="setUpClass" is-config="true" duration-ms="1521" started-at="2020-09-26T07:00:17 EET" finished-at="2020-09-26T07:00:18 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Tests.TestBase@3b084709]" name="tearDownClass" is-config="true" duration-ms="22" started-at="2020-09-26T07:00:18 EET" finished-at="2020-09-26T07:00:18 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="QuitDriver()[pri:0, instance:Tests.TestBase@3b084709]" name="QuitDriver" is-config="true" duration-ms="6" started-at="2020-09-26T07:00:19 EET" finished-at="2020-09-26T07:00:19 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitDriver -->
+      </class> <!-- Tests.TestBase -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

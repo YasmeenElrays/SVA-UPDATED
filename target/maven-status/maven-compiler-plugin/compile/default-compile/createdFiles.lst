@@ -1,0 +1,5 @@
+Pages\LoginPage.class
+Pages\PageBase.class
+Pages\PackagePage.class
+Pages\TeacherPage.class
+Pages\LandingPage.class

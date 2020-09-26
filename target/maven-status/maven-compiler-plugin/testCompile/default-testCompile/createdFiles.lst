@@ -1,0 +1,8 @@
+Tests\TestBase.class
+Tests\TeachersTCs.class
+Tests\LandingPageTCs.class
+Tests\LoginTCs.class
+Runner\TestRunner.class
+Tests\PackageTCs.class
+Runner\TestRunner$TestRunner1.class
+Steps\UserRegistration.class
